@@ -2,6 +2,8 @@
 
 Motion SlicK is a wrapper of the SpriteKit api that helps make building SpriteKit based games easier.
 
+[![Code Climate](https://codeclimate.com/github/jimnanney/motion_slick/badges/gpa.svg)](https://codeclimate.com/github/jimnanney/motion_slick)
+
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
@@ -52,7 +54,7 @@ Here we are creating and running a sequence of actions on the ```to``` node.
 
 The move_to action takes a position, and optional duration.
 
-The DSL adds some more syntactic sugar by adding timing mode additions, such as the ```ease_out`` timing mode above used above.
+The DSL adds some more syntactic sugar by adding timing mode additions, such as the ```ease_out`` timing mode used above.
 
 ## Contributing
 
