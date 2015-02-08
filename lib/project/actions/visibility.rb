@@ -1,18 +1,20 @@
-module MSK::Actions::Visibility
+module MSK::Actions
+  module Visibility
 
-  alias_method :show, :unhide
+    def unhide
+      SKAction.unhide
+    end
 
-  def unhide
-    SKAction.unhide
+    def hide
+      SKAction.hide
+    end
+
+    def remove_from_parent
+      SKAction.removeFromParent
+    end
+
+    alias_method :show, :unhide
+
   end
-
-  def hide
-    SKAction.hide
-  end
-
-  def remove_from_parent
-    SKAction.removeFromParent
-  end
-
 end
 

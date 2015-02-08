@@ -1,3 +1,4 @@
-module MSK::Actions::Content
-
+module MSK::Actions
+  module Content
+  end
 end

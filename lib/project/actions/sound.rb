@@ -1,3 +1,4 @@
-module MSK::Actions::Sound
-
+module MSK::Actions
+  module Sound
+  end
 end
