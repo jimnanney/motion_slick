@@ -15,7 +15,7 @@ end
 class SKNode
   include MSK::ActionDSL
   include MSK::FrameHelpers
-  alias_method :run_action :runAction
+  alias_method :run_action, :runAction
 end
 
 class SKAction

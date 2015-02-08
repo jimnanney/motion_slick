@@ -1,6 +1,6 @@
 module MSK::Actions::Visibility
 
-  alias_method :show :unhide
+  alias_method :show, :unhide
 
   def unhide
     SKAction.unhide
